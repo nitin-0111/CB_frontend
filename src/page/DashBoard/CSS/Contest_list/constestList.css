@@ -1,0 +1,71 @@
+.coding-contest-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.coding-contest-filter .host-sites,
+.coding-contest-filter .today,
+.coding-contest-filter .duration {
+  flex: 1;
+}
+.coding-contest-filter h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.coding-contest-filter .host-sites ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.coding-contest-filter .host-sites ul li {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.coding-contest-filter .host-sites ul li.selected {
+  background-color: rgba(167, 96, 200, 0.5294117647);
+  color: #fff;
+}
+.coding-contest-filter .host-sites ul li img {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.5rem;
+}
+.coding-contest-filter .today .toggle {
+  display: flex;
+  gap: 1rem;
+}
+.coding-contest-filter .today .toggle button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.coding-contest-filter .today .toggle button.selected {
+  background-color: rgba(167, 96, 200, 0.5294117647);
+  color: #fff;
+}
+.coding-contest-filter .today .toggle button:not(.selected) {
+  background-color: white; /* Set the default background color */
+  color: #000; /* Set the default text color */
+}
+.coding-contest-filter .duration ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.coding-contest-filter .duration ul li {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.coding-contest-filter .duration ul li.selected {
+  background-color: rgba(167, 96, 200, 0.5294117647);
+  color: #fff;
+}/*# sourceMappingURL=constestList.css.map */
